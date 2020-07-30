@@ -1,0 +1,70 @@
+.posts{
+  position: absolute;
+  margin: 20px;
+  left: 10%;
+  width: 500px;
+
+}
+
+.scroll{
+  overflow-y: auto;
+  height: 500px;
+}
+
+.post{
+  background: rgb(255,182,193, .4);
+  box-shadow: 5px 10px #888888;
+  margin: 3px;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+.songs{
+  position: absolute;
+  margin: 20px;
+  left: 60%;
+  overflow-y: auto;
+  height: 500px;
+  color: pink;
+  width: 400px;
+  float: left;
+}
+
+.songs h3{
+  text-align: center;
+}
+
+.songs .package{
+  float: left;
+  margin: 20px;
+}
+
+.songs .package p {
+  text-align: center;
+  color: darkgrey;
+}
+h3{
+  color: darkgrey;
+}
+
+.cover{
+  text-align: center;
+  font-size: 100px;
+  color: pink;
+}
+
+#poster{
+  font-size: 20px;
+  text-shadow: -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#button-shit{
+  padding: 0;
+  border: none;
+  background: none;
+  left: 90%;
+  position: relative;
+  font-size: 25px;
+  color: lightblue;
+  text-shadow: 0px 0px 2px blue;
+}

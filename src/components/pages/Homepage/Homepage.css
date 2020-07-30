@@ -1,0 +1,28 @@
+.homepage{
+  position: absolute;
+  color: #196ECF;
+  left: 10%;
+  top: 30%;
+}
+
+#intro{
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  color: pink;
+  width: 800px;
+}
+
+#nonlogged{
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  color: #196ECF;
+}
+
+#titlething {
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  color: pink;
+}

@@ -1,0 +1,133 @@
+#songname{
+  position: relative;
+  color: #196ECD;
+  text-align: center;
+  font-size: 50px;
+}
+
+#artistname{
+  position: relative;
+  color: lightblue;
+  text-align: center;
+  font-size: 30px;
+  color: darkgrey;
+}
+
+.centered{
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
+}
+
+/*
+The transition will be applied to any effects on this button
+*/
+#specialbutton button{
+  width: 150px;
+  height: 0px;
+  line-height: 0px;
+  padding: 50px 0px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+
+#specialbutton button:hover{
+  background: lightpink;
+  transform: rotate(360deg);
+  border-radius: 2px;
+  padding: 40px 10px;
+  overflow: hidden;
+}
+
+#specialbutton button:hover span{
+  position: absolute;
+  display: block;
+}
+
+#specialbutton button:hover span:nth-child(1){
+  background: red;
+  width: 100%;
+  height: 2px;
+  top: 0px;
+  left: -100%;
+  animation: run1 linear infinite;
+  animation-duration: .5s;
+  animation-delay: 1s;
+}
+
+
+@keyframes run1{
+  0%{
+    left: -100%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+#specialbutton button:hover span:nth-child(2){
+  background: red;
+  width: 2px;
+  height: 100%;
+  top: -100%;
+  right: 0px;
+  animation: run2 linear infinite;
+  animation-duration: .5s;
+  animation-delay: 1.25s;
+}
+
+
+@keyframes run2{
+  0%{
+    top: -100%;
+  }
+  100%{
+    top: 100%;
+  }
+}
+
+#specialbutton button:hover span:nth-child(3){
+  background: red;
+  width: 100%;
+  height: 2px;
+  bottom: 0px;
+  left: 100%;
+  animation: run3 linear infinite;
+  animation-duration: .5s;
+  animation-delay: 1s;
+}
+
+
+@keyframes run3{
+  0%{
+    left: 100%;
+  }
+  100%{
+    left: -100%;
+  }
+}
+
+#specialbutton button:hover span:nth-child(4){
+  background: red;
+  width: 2px;
+  height: 100%;
+  left: 0px;
+  top: 100%;
+  animation: run4 linear infinite;
+  animation-duration: .5s;
+  animation-delay: 1.25s;
+}
+
+
+@keyframes run4{
+  0%{
+    top: 100%;
+  }
+  100%{
+    top: -100%;
+  }
+}

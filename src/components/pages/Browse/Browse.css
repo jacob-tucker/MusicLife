@@ -1,0 +1,70 @@
+.browsetab{
+  margin: 20px;
+}
+
+.latesttrack {
+  position: relative;
+  border: solid;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  float: right;
+  height: 200px;
+  color: #03e9f4;
+}
+
+.latesttrack:hover {
+  color: #03e9f4;
+  box-shadow: 0 0 20px #03e9f4;
+}
+
+.hottesttrack {
+  position: relative;
+  border: solid;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  margin-right: 20px;
+  float: right;
+  height: 200px;
+  color: red;
+}
+
+.hottesttrack:hover {
+  color: red;
+  box-shadow: 0 0 20px pink;
+}
+
+.popcommunity {
+  position: relative;
+  border: solid;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 20px;
+  float: right;
+  top: 200px;
+  left: 475px;
+  height: 200px;
+  color: lightgreen;
+}
+
+.popcommunity:hover {
+  color: green;
+  box-shadow: 0 0 20px lightgreen;
+}
+
+.browse{
+  position: absolute;
+  top: 200px;
+  width: 40%;
+  float: left;
+  overflow-y: auto;
+  height: 500px;
+}
+
+#thesongs{
+  color: #196ECF;
+  text-shadow: none;
+}

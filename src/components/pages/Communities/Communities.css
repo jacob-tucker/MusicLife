@@ -1,0 +1,53 @@
+.community{
+  border-radius:7.5px;
+  background: darkgrey;
+  border-style: solid pink;
+  padding: 5px;
+  display: inline;
+  margin: 5px;
+  font-size: 100px;
+  float: left;
+}
+
+a{
+  color: lightpink;
+  text-shadow: -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000;
+}
+
+.communitystuff{
+  float: left;
+  width: 300px;
+  margin: 20px;
+
+}
+
+.list{
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 20px;
+}
+
+.error{
+  font-size: 20px;
+  color: red;
+}
+
+.suggested h2, .list h2{
+  color: #FF69B4;
+  text-shadow: none;
+}
+
+.suggested{
+  height: 300px;
+  overflow-y: auto;
+  color: lightpink;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000;
+}
+
+#interesttext{
+  color: lightgray;
+  font-size: 12.5px;
+}
