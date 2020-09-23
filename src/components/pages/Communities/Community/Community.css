@@ -2,7 +2,7 @@
   position: absolute;
   margin: 20px;
   left: 10%;
-  width: 500px;
+  width: 460px;
 
 }
 
@@ -22,16 +22,18 @@
 .songs{
   position: absolute;
   margin: 20px;
-  left: 60%;
+  left: 55%;
   overflow-y: auto;
   height: 500px;
   color: pink;
-  width: 400px;
+  width: 700px;
   float: left;
 }
 
 .songs h3{
+  position: relative;
   text-align: center;
+  left: -5%;
 }
 
 .songs .package{

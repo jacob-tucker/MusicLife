@@ -7,9 +7,9 @@ export const signIn = (credentials) => {
       credentials.email,
       credentials.password
     ).then(() => {
-      dispatch({ type: 'LOGIN_SUCCESS'})
+      dispatch({ type: 'LOGIN_SUCCESS' })
     }).catch((err) => {
-      dispatch({ type: 'LOGIN_ERROR', err})
+      dispatch({ type: 'LOGIN_ERROR', err })
     })
   }
 }
@@ -17,9 +17,9 @@ export const signIn = (credentials) => {
 export const signOut = () => {
   return (dispatch, getState) => {
     firebase.auth().signOut().then(() => {
-      dispatch({type: 'SIGNOUT_SUCCESS'})
+      dispatch({ type: 'SIGNOUT_SUCCESS' })
     }).catch((err) => {
-      dispatch({type: 'SIGNOUT_ERROR', err})
+      dispatch({ type: 'SIGNOUT_ERROR', err })
     })
   }
 }
@@ -39,13 +39,9 @@ export const signUp = (newUser) => {
         communities: []
       })
     }).then(() => {
-      return db.collection('users').doc("Hj8M2oG7GmOpnfOvgbHJ").set({
-        firstName: "hey!"
-      }, {merge: true})
-    }).then(() => {
-      dispatch({type: 'SIGNUP_SUCCESS'})
+      dispatch({ type: 'SIGNUP_SUCCESS' })
     }).catch(err => {
-      dispatch({type: 'SIGNUP_ERROR', err})
+      dispatch({ type: 'SIGNUP_ERROR', err })
     })
   }
 }
