@@ -1,3 +1,9 @@
+# MusicLifev2 is Out
+Please see the updated version of MusicLife, which features a complete design overhaul, and looks much nicer :)
+MusicLifev2 Repository: https://github.com/jacob-tucker/MusicLifev2
+MusicLifev2 Website: https://musiclifev2.netlify.app/
+
+
 # Overview
 
 This application is a full-stack application. The client is build in React.js, and utilizes the Redux library to communicate with the Firebase database, which is a database hosted by google, and can be found here: https://firebase.google.com/. The MusicLife app can be found here: https://musiclife.netlify.app/
